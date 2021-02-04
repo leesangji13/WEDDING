@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+@font-face {
+     font-family:"PlayfairDisplay";
+    font-weight:100;
+     src:url("../font/playfair/PlayfairDisplay-Regular.ttf");
+}
+@font-face {
+     font-family:"PlayfairDisplay";
+    font-weight:300;
+     src:url("../font/playfair/PlayfairDisplay-Medium.ttf");
+}
+@font-face {
+     font-family:"PlayfairDisplay";
+    font-weight:400;
+     src:url("../font/playfair/PlayfairDisplay-SemiBold.ttf");
+}
+@font-face {
+     font-family:"PlayfairDisplay";
+    font-weight:500;
+     src:url("../font/playfair/PlayfairDisplay-Bold.ttf");
+}
+
+@font-face {
+     font-family:"NanumMyeongjo";
+    font-weight:100;
+     src:url("../font/nanummyeongjo/NanumMyeongjoR.woff2");
+}
+@font-face {
+     font-family:"NanumMyeongjo";
+    font-weight:200;
+     src:url("../font/nanummyeongjo/NanumMyeongjoR.woff");
+}
+@font-face {
+     font-family:"NanumMyeongjo";
+    font-weight:300;
+     src:url("../font/nanummyeongjo/NanumMyeongjoR.ttf");
+}
+@font-face {
+     font-family:"NanumMyeongjo";
+    font-weight:400;
+     src:url("../font/nanummyeongjo/NanumMyeongjoB.woff2");
+}
+
+
+h1,h2,h3,h4{
+    font-family:'PlayfairDisplay';
+}
+
+p,span{
+    font-family:'NanumMyeongjo';
+    font-weight:300;
+}

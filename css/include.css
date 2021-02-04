@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+/*헤더*/
+#header{
+    padding:30px;
+    box-sizing:border-box;
+    position:absolute;
+    width:100%;
+    z-index:1;
+}
+
+.hWrap{
+    width:100%;
+    padding:30px;
+    box-sizing:border-box;
+    position:absolute;
+}
+.hLogo{
+    float:left;
+    display:inline-block;
+    cursor:pointer;
+}
+.hLogo a{
+    display:block;
+}
+.hLogo img{}
+
+.menuBar{
+    float:right;
+    display:inline-block;
+    cursor:pointer;
+}
+.menuBar a{
+    display:block;
+}
+.menuBar img{}
+
+
+/*푸터*/
+#footer{
+    padding:40px;
+    background:#f8f7f3;
+}
+
+.fLogo{
+    display:inline-block;
+}
+.fLogo a{}
+.fLogo img{
+    
+    
+}
+
+.fInfo{
+    padding:10px 0;
+    text-align:center;
+}
+.fInfo p{
+    line-height:40px;
+    font-size:20px;
+}
+
+.fIco{
+    float:right;
+}
+.fIco li{
+    float:left;
+    margin-left:20px;
+}
+.fIco li a{}
+.fIco li img{
+    width:20px;
+    height:21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,292 @@
+@charset "utf-8";
+
+/*메인슬라이더*/
+.mainSlider{
+    height:1000px;
+    overflow:hidden;
+    position:relative;
+}
+.mainSlider img{
+    position:absolute;
+    left:50%;
+    margin-left:-960px;
+    
+}
+
+/*메인컨텐츠01*/
+.mainCon01{
+    padding:150px 0;
+    text-align:center;
+}
+
+.con01Logo{
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:150px;
+}
+.con01Logo img{}
+
+.con01Txt{
+    text-align:left;
+    display:inline-block;
+    vertical-align:middle;
+    margin-left:150px;
+}
+.con01Info{
+    line-height:40px;
+    font-size:25px;
+}
+
+.moreBtn{
+    margin-top:80px;
+    display:inline-block;
+    border:1px solid #000;
+}
+
+.moreBtn a{
+    padding:10px 40px;
+    display:block;
+}
+.moreBtn p{
+    font-size:15px;
+}
+
+/*메인컨텐츠02*/
+.mainCon02{
+    padding:130px 0 100px 0;
+    background:url(../images/main/con02Bg.png);
+    position:relative;
+    text-align:center;
+}
+
+.con02Txt{
+    
+}
+.con02Txt h2{
+    margin-bottom:50px;
+    font-size:60px;
+    font-weight:400;
+    letter-spacing:15px;
+}
+.con02Txt h3{
+    font-size:40px;
+    font-weight:300;
+}
+.con02Txt p{
+    font-size:25px;
+    margin:30px 0 50px 0;
+}
+
+.con02Img{
+}
+.con02Img li{
+    float:left;
+    position:relative;
+}
+.con02Img li a{
+    display:block;
+}
+.con02Img li a::after{
+    content:"";
+    display:block;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    background:rgba(0,0,0,0);
+    transition:background 0.3s;
+}
+.con02Img li:hover a::after{
+    background:rgba(0,0,0,0.1);
+}
+.con02Img li img{
+    display:block;
+}
+
+.con02Info{
+    position:absolute;
+    width:100%;
+    margin:0 auto;
+    bottom:10%;
+    z-index:1;
+}
+.con02Info h3{
+    display:inline-block;
+    font-size:30px;
+    font-weight:300;
+}
+
+.viewBtn{
+    display:inline-block;
+    border:1px solid #000;
+    font-size:15px;
+    margin:50px 0;
+}
+.viewBtn a{
+    display:block;
+    padding:10px 30px;
+}
+.viewBtn p{}
+
+
+
+/*메인컨텐츠03*/
+.mainCon03{
+    height:1080px;
+    background:url(../images/main/con03Bg01.png) repeat-y;
+    position:relative;
+}
+
+.con03Img{
+    width:774px;
+    height:853px;
+    margin:113px 0;
+    background:url(../images/main/con03Img01.png) no-repeat;
+    text-indent:-9999px;
+    display:inline-block;
+}
+
+.con03Txt{
+    position:absolute;
+    right:20%;
+    top:50%;
+    margin-top:-242px;
+    padding:80px 90px 80px 90px;
+    background:#fff;
+}
+.con03Txt h2{
+    margin-bottom:50px;
+    letter-spacing:10px;
+    font-size:50px;
+    font-weight:300;
+}
+.con03Txt p{
+    margin-bottom:60px;
+    line-height:40px;
+    font-size:21px;
+}
+
+
+/*메인컨텐츠04*/
+.mainCon04{
+    height:921px;
+}
+
+.con04Img{
+    width:60%;
+    height:921px;
+    background:url(../images/main/con04Img.png) no-repeat;
+    background-size:cover;
+    position:relative;
+    display:inline-block;
+}
+
+.mainCon04 .con03Txt{
+    right:-30%;
+    top:50%;
+    margin-top:-276px;
+}
+
+
+/*메인컨텐츠05*/
+.mainCon05{
+    padding:100px 0;
+    background:#f8f7f3;
+}
+
+.con05Txt{
+    text-align:center;
+}
+.con05Txt h2{
+    margin-bottom:30px;
+    letter-spacing:10px;
+    font-size:50px;
+    font-weight:400;
+}
+.con05Txt p{
+    margin-bottom:60px;
+    line-height:40px;
+    font-size:21px;
+}
+
+.con05Img{}
+.con05Img li{
+    float:left;
+    position:relative;
+}
+.con05Img li a::after{
+    content:"";
+    display:block;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    background:rgba(255,255,255,0.3) no-repeat center 80%;
+    opacity:0;
+    transition:opacity 0.3s;
+}
+.con05Img li:hover a::after{
+    background-image:url(../images/main/plusBtn.png);
+    opacity:1;
+}
+.con05Img li img{
+    display:block;
+}
+
+
+/*메인컨텐츠06*/
+.mainCon06{
+    height:802px;
+    background:url(../images/main/con06Img.png) no-repeat;
+    background-size:cover;
+    position:relative;
+}
+
+.con06Txt{
+    position:absolute;
+    left:50%;
+    margin-left:-485px;
+    top:50%;
+    margin-top:-287px;
+    padding:100px 180px;
+    display:inline-block;
+    background:rgba(248,247,243,0.9);
+    text-align:center;
+}
+.con06Txt h3{
+    margin-bottom:50px;
+    letter-spacing:15px;
+    font-size:55px;
+    font-weight:300;
+}
+.con06Txt>p{
+    line-height:40px;
+    font-size:21px;
+}
+
+.mainCon06 .moreBtn{
+    margin-top:90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
